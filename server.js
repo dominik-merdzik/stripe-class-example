@@ -2,6 +2,7 @@
 const stripe = require('stripe')('sk_test_51MtGknHHGZsyQ64QeodzHWGpNHg3dNRZuut4upOAshs3YthhiE8LUMULppGtsUpKdc46IA9OAWRmzXNvgd6FQYfV00aI5qtAd2');
 const express = require('express');
 const app = express();
+const endpointSecret = 'whsec_5862ecfed0dfcd55471a4e63ca9af09a5215615a12e67f0bcedbdf78e019c636';
 app.use(express.static('public'));
 
 const YOUR_DOMAIN = 'http://localhost:4242';
